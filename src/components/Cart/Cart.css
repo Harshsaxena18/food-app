@@ -1,0 +1,17 @@
+.cart {
+  animation: opacity_transition .2s ease;
+  border-left: 1px solid #e6e6e6;
+  height: 100%;
+  opacity: 1;
+  padding: 0 0 0 3vw
+}
+@media screen and (max-width:1200px) {.cart{margin: 20px 0 0;}}
+.cart_heading {
+  display: block;
+  font-size: 30px;
+  font-weight: 800;
+  padding: 50px 0 30px;
+}
+table, tr {
+  border-bottom: 1px solid #e6e6e6
+}

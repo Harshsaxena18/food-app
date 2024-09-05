@@ -1,0 +1,41 @@
+.title {
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 50px 0 20px 3vw
+}
+.title_bold {
+  font-weight: 800;
+}
+.main {
+  animation: opacity_transition .2s ease;
+  border-left: 1px solid #e6e6e6;
+  height: 100%;
+  opacity: 1
+}
+@media screen and (max-width:1200px) {.main{margin: 20px 0 0;}}
+.tasty{
+  left: -28px;
+  position: relative;
+  top: -5px
+}
+.category_title {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0 0 0 3vw
+}
+.meals {
+  animation: moveup 1s ease;
+  margin: 80px 0 0 3vw
+}
+@keyframes moveup {
+  from {margin: 100px 0 0 3vw}
+  to {margin: 80px 0 0 3vw}
+}
+hr {
+  color: #bfbfbf;
+  margin: 0 0 0 170px;
+  position: relative;
+  top: -15px;
+  width: 67vw
+}
